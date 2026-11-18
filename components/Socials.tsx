@@ -48,11 +48,11 @@ export default function Socials( {topbarActive,
           <div className="hidden items-center gap-6 text-xs text-white/80 sm:flex">
 
             <Link
-              href="tel:+916261752771"
+              href="tel:+918107047722"
               className="flex items-center gap-2 transition hover:text-[#56b5da]"
             >
               <FaPhoneAlt />
-              +91 62617 52771
+              +91 8107047722
             </Link>
 
             <a
@@ -68,11 +68,11 @@ export default function Socials( {topbarActive,
             </a>
 
             <a
-              href="mailto:dr.richaglobal@gmail.com"
+              href="mailto:itee.sinha22@gmail.com"
               className="flex items-center gap-2 transition hover:text-white text-brand-red"
             >
               <FaEnvelope />
-              dr.richaglobal@gmail.com
+              itee.sinha22@gmail.com
             </a>
 
           </div>
@@ -120,11 +120,13 @@ export default function Socials( {topbarActive,
           <div className="space-y-4 border-t border-white/10 pt-4 text-sm">
 
             <Link
-              href="tel:+916261752771"
+              href="tel:++91 8107047722"
               className="flex items-center gap-3"
             >
               <FaPhoneAlt className="text-[#56b5da]" />
-              +91 62617 52771
+              +91 8107047722
+              +91 9660033750
+
             </Link>
 
             <a
@@ -145,11 +147,11 @@ export default function Socials( {topbarActive,
             </a>
 
             <a
-              href="mailto:dr.richaglobal@gmail.com"
+              href="mailto:itee.sinha22@gmail.com"
               className="flex items-center gap-3"
             >
               <FaEnvelope className="text-[#56b5da]" />
-              dr.richaglobal@gmail.com
+              itee.sinha22@gmail.com
             </a>
 
           </div>

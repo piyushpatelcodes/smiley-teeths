@@ -58,28 +58,31 @@ const [current, setCurrent] = useState(0);
         </h2>
 
         <p className="mt-6 max-w-[520px] text-[15px] leading-8 text-slate-600">
-          At <strong>Global Dental</strong>, your smile is our highest
-          priority. Our experienced team is dedicated to helping you achieve
-          and maintain a healthy, confident smile through personalized dental
-          care tailored to your needs.
-        </p>
-
-        <p className="mt-5 max-w-[520px] text-[15px] leading-8 text-slate-600">
-          Every dental procedure at our clinic is performed with a gentle,
-          pain-free approach using modern technology and advanced treatment
-          techniques to ensure your comfort throughout every visit.
-        </p>
-
-        <p className="mt-5 max-w-[520px] text-[15px] leading-8 text-slate-600">
-          We are committed to providing comprehensive dental care in a safe,
-          welcoming environment while following strict sterilization, safety,
-          and infection control protocols for your complete peace of mind.
-        </p>
-
+  At <strong>Global Dental</strong>, we are dedicated to creating healthy,
+  confident smiles through personalized care, modern technology, and
+  advanced dental treatments in a safe and comfortable environment.
+</p>
+<p className="mt-5 max-w-[520px] text-[15px] leading-7 text-slate-600">
+  Our clinic is led by experienced specialists:
+  <br /><br />
+  <strong className="text-slate-800">Dr. Sandeep Shrivastava</strong>
+  <br />
+  MDS – Orthodontics & Dentofacial Orthopaedics
+  <br />
+  Government College of Dentistry, Indore.
+  <br /><br />
+  <strong className="text-slate-800">Dr. Itee Sinha</strong>
+  <br />
+  MDS – Conservative Dentistry & Endodontics
+  <br />
+  People's College of Dental Sciences (PCDS), Bhopal
+  <br />
+  Government Medical Officer.
+</p>
        <div className="my-8 flex flex-col gap-4 sm:flex-row ">
   {/* Call */}
   <Link
-    href="tel:+916261752771"
+    href="tel:+918107047722"
     className="
       inline-flex
       flex-1
@@ -112,7 +115,7 @@ const [current, setCurrent] = useState(0);
 
   {/* WhatsApp */}
   <Link
-    href="https://wa.me/916261752771?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
+    href="https://wa.me/918107047722?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
     target="_blank"
     className="
       inline-flex

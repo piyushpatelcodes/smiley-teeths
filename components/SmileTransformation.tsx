@@ -216,7 +216,7 @@ export default function SmileTransformations() {
 
           {/* CTA */}
           <Link
-            href="tel:+916261752771"
+            href="tel:+91 8107047722"
             className="
           group
           inline-flex
@@ -263,7 +263,7 @@ export default function SmileTransformations() {
 
           {/* WhatsApp */}
           <Link
-            href="https://wa.me/916261752771?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
+            href="https://wa.me/918107047722?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
             target="_blank"
             className="
                   rounded-xl

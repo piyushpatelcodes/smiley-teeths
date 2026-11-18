@@ -555,7 +555,7 @@ const swap = () => {
 
             <div className="my-8 flex flex-col gap-4 sm:flex-row ">
               <Link
-                href="tel:+916261752771"
+                href="tel:918107047722"
                 className="w-full rounded-xl bg-white px-8 py-4 font-semibold text-[#2b63f0] transition hover:scale-[1.03] sm:w-auto text-center"
               >
                 Book Your Appointment
@@ -563,7 +563,7 @@ const swap = () => {
 
               {/* WhatsApp */}
               <Link
-                href="https://wa.me/916261752771?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
+                href="https://wa.me/918107047722?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
                 target="_blank"
                 className="
                   rounded-xl

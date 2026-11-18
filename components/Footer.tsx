@@ -170,8 +170,8 @@ export default function Footer() {
               <div className="flex items-center gap-4">
                 <FaPhoneAlt className="text-[#57c5e8]" />
 
-                <Link href="tel:+916261752771" className="hover:underline text-sm text-white/60">
-                  +91 62617 52771
+                <Link href="tel:918107047722" className="hover:underline text-sm text-white/60">
+                  +91 8107047722
                 </Link>
               </div>
 
@@ -180,7 +180,8 @@ export default function Footer() {
                 <FaEnvelope className="text-[#57c5e8]" />
 
                 <p className="text-sm text-white/60">
-                  dr.richaglobal@gmail.com
+                 itee.sinha22@gmail.com
+                 Drsandeep8071@gmail.com
                 </p>
               </div>
 

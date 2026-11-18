@@ -316,11 +316,11 @@ export default function Home() {
         <div>
           <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
             <span className="text-sm font-semibold tracking-wide text-white md:text-base">
-              Dr. Richa Gupta
+            Dr. Itee Sinha & Dr. Sandeep Shrivastava
             </span>
 
             <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-[9px] font-medium uppercase tracking-[0.15em] text-white/75 backdrop-blur-sm">
-              BDS
+              MDS 
             </span>
           </div>
 
@@ -337,7 +337,7 @@ export default function Home() {
       <div className="mt-5 flex items-center gap-2 text-[10px] uppercase tracking-[0.16em] text-white/45 md:text-[11px]">
         <span className="size-1.5 rounded-full bg-brand-blue shadow-[0_0_8px_rgba(37,99,235,0.8)]" />
         Experienced Care
-        <span className="text-white/20">•</span>
+        <span className="size-1.5 rounded-full bg-brand-blue shadow-[0_0_8px_rgba(37,99,235,0.8)]"></span>
         Personalised Dentistry
       </div>
     </div>
@@ -363,9 +363,9 @@ Sunday: 10:30 AM to 1 PM*/}
       </span>
 
       <div className="whitespace-nowrap text-white/90">
-        <span>10:30 AM – 1:00 PM</span>
-        <span className="mx-2 text-white/25">|</span>
-        <span>5:00 PM – 8:00 PM</span>
+        <span>05:30 PM – 8:00 PM</span>
+        {/* <span className="mx-2 text-white/25">|</span>
+        <span>5:00 PM – 8:00 PM</span> */}
       </div>
     </div>
 
@@ -386,7 +386,7 @@ Sunday: 10:30 AM to 1 PM*/}
           subtitle="Schedule your visit"
           value={
             <Link
-              href="https://wa.me/916261752771?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
+              href="https://wa.me/918107047722?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
               target="_blank"
               rel="noopener noreferrer"
 className="
@@ -435,13 +435,13 @@ className="
         />
         <InfoCard
           title="Emergency Service"
-          subtitle="+91 62617 52771"
+          subtitle="+91 8107047722"
           value={
             <div className="my-8 flex flex-col gap-3 ">
               {/* Call */}
-              {/* <p>+916261752771</p> */}
+              {/* <p>+918107047722</p> */}
               <Link
-                href="tel:+916261752771"
+                href="tel:+91 8107047722"
 className="
   inline-flex
   items-center
@@ -471,7 +471,7 @@ className="
 
               {/* WhatsApp */}
               <Link
-                href="https://wa.me/916261752771?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
+                href="https://wa.me/918107047722?text=Hello%20Global%20Dental%2C%20I%20would%20like%20to%20book%20a%20dentist%20appointment.%20Could%20you%20please%20share%20the%20available%20time%20slots%3F"
                 target="_blank"
 className="
   inline-flex

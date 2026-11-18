@@ -273,8 +273,8 @@ Sunday: 10:30 AM to 1 PM*/}
 
         <div className="whitespace-nowrap text-white">
           <span>10:30 AM - 1:00 PM</span>
-          <span className="mx-2 text-white/40">|</span>
-          <span>5:00 PM - 8:00 PM</span>
+          {/* <span className="mx-2 text-white/40">|</span>
+          <span>5:00 PM - 8:00 PM</span> */}
         </div>
       </div>
 
@@ -304,7 +304,7 @@ Sunday: 10:30 AM to 1 PM*/}
         <InfoCard
           title="Emergency Service"
           subtitle="EMERGENCY LINE 24/7"
-          value="+91 62617 52771"
+          value="+91 8107047722"
           icon={<FaPhoneAlt size={22} />}
         />
       </div>
