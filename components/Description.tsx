@@ -77,7 +77,7 @@ const [current, setCurrent] = useState(0);
   <br />
   People&apos;s College of Dental Sciences (PCDS), Bhopal
   <br />
-  Government Medical Officer.
+
 </p>
        <div className="my-8 flex flex-col gap-4 sm:flex-row ">
   {/* Call */}
