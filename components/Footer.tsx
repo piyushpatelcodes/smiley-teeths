@@ -171,7 +171,7 @@ export default function Footer() {
                 <FaPhoneAlt className="text-[#57c5e8]" />
 
                 <Link href="tel:918107047722" className="hover:underline text-sm text-white/60">
-                  +91 8107047722
+                  +91 81070 47722
                 </Link>
               </div>
 

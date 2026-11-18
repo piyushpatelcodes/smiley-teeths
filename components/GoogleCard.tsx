@@ -41,15 +41,15 @@ export default function GoogleMembershipCard({
   patientCount = "2.5K+",
   experience = "10+ Years",
 
-  doctorName = "Dr. Richa Gupta",
-  qualification = "BDS",
+  doctorName = "Dr. Itee Sinha / Dr. Sandeep Shrivastava",
+  qualification = "MDS",
 }: GoogleMembershipCardProps) {
   return (
     <a
       href={googleReviewsUrl}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="View Google Reviews for Dr. Richa Gupta"
+      aria-label="View Google Reviews for Dr. Itee And Dr. Sandeep Shrivastava"
       className="
         group
         relative

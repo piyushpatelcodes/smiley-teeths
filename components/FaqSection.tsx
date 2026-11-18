@@ -73,7 +73,7 @@ const reviews = [
     name: "Sweta Singh",
     designation: "Happy Client. Happy Smile",
     phone: "+91 97XXXXXX67",
-    text: "Dr. Richa is a good dentist with great knowledge and experience.",
+    text: "Dr. Itee and Sandeep are good dentists with great knowledge and experience.",
     image: "/images/reviews/3.png",
     link: "https://maps.app.goo.gl/ZbKhfTDJ26Kb1vCz6",
   },
@@ -97,7 +97,7 @@ const reviews = [
     name: "Nirmesh Gupta",
     designation: "Happy Client. Happy Smile",
     phone: "+91 98XXXXXX46",
-    text: "A Doctor Who Truly Cares! Dr. Richa Took Follow-ups even after the Treatment",
+    text: "A Doctor Who Truly Cares! Dr. Itee Took Follow-ups even after the Treatment",
     image: "/images/reviews/6.png",
     link: "https://maps.app.goo.gl/sQUA71w145smdpybA",
   },
@@ -121,7 +121,7 @@ const reviews = [
     name: "Kavita Agrawal",
     designation: "Happy Client. Happy Smile",
     phone: "+91 95XXXXXX36",
-    text: "Very Humble and Hardworking. Dr. Richa Carries Perfection",
+    text: "Very Humble and Hardworking. Dr. Sandeep Carries Perfection",
     image: "/images/reviews/9.png",
     link: "https://maps.app.goo.gl/L9fmF5RPsWmWE6nHA",
   },
@@ -194,7 +194,7 @@ const reviews = [
 const images = [
   "/images/chair.png",
   "/images/owner-headshot.png",
-  "/images/owner.jpg",
+  "/images/owner2-landscape.png",
 ];
 
 type View = {
@@ -720,9 +720,11 @@ const swap = () => {
               Bhopal, M.P - 462039
             </p>
 
-            <div className="font-semibold text-[#2ea3cc]">
-              Open Today · 10:30 AM - 8:00 PM
-            </div>
+<div className="font-semibold text-[#2ea3cc]">
+  {new Date().getDay() === 0
+    ? "Open Today · 10:30 AM - 1:00 PM"
+    : "Open Today · 5:30 PM - 8:00 PM"}
+</div>
           </div>
         </div>
       </div>

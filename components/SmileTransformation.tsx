@@ -198,7 +198,7 @@ export default function SmileTransformations() {
               >
                 <path d="M20 6 9 17l-5-5" />
               </svg>
-              <span>Dr. Richa Gupta with 10+ Years of Experience.</span>
+              <span>Dr. Itee and Dr. Sandeep both with 10+ Years of Experience.</span>
             </div>
             <div className="mt-5 flex items-center gap-2 text-sm font-medium text-slate-500">
               <svg

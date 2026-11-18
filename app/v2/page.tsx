@@ -304,7 +304,7 @@ Sunday: 10:30 AM to 1 PM*/}
         <InfoCard
           title="Emergency Service"
           subtitle="EMERGENCY LINE 24/7"
-          value="+91 8107047722"
+          value="+91 81070 47722"
           icon={<FaPhoneAlt size={22} />}
         />
       </div>

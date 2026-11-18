@@ -5,8 +5,8 @@ import { FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
 
 const images = [
   // "/background-home.jpg",
-  "/images/owner-headshot.png",
-  "/images/owner.jpg",
+  "/images/owner-headshotv2.png",
+  "/images/owner2-landscape.png",
 ];
 
 
@@ -73,9 +73,9 @@ const [current, setCurrent] = useState(0);
   <br /><br />
   <strong className="text-slate-800">Dr. Itee Sinha</strong>
   <br />
-  MDS – Conservative Dentistry & Endodontics
+  MDS - Conservative Dentistry & Endodontics
   <br />
-  People's College of Dental Sciences (PCDS), Bhopal
+  People&apos;s College of Dental Sciences (PCDS), Bhopal
   <br />
   Government Medical Officer.
 </p>

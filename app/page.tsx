@@ -26,11 +26,11 @@ const nav = ["HOME", "SERVICES", "DOCTORS", "REVIEWS", "CONTACT"];
 
 const desktopImages = [
   "/images/owner-headshot.png",
-  "/images/owner2.png",
+  "/images/owner2-landscape.png",
   "/images/chair.png",
 ];
 
-const mobileImages = ["/images/owner-headshot.png", "/images/chair.png"];
+const mobileImages = ["/images/owner-headshotv2.png","/images/owner2.png", "/images/chair.png"];
 
 export default function Home() {
   const landingRef = useRef<HTMLDivElement>(null);
@@ -79,7 +79,7 @@ export default function Home() {
       // Background
       tl.from(bgRef.current, {
         opacity: 0,
-        scale: 1.08,
+        scale: 1.18,
         duration: 1,
         ease: "power2.out",
       });
@@ -89,7 +89,7 @@ export default function Home() {
         navRef.current,
         {
           autoAlpha: 0,
-          y: -18,
+          y: -8,
           scale: 0.985,
           filter: "blur(6px)",
         },
@@ -168,7 +168,7 @@ export default function Home() {
       ref={landingRef}
       className="relative flex  flex-col items-center justify-center bg-dark-blue dark:bg-transparent"
     >
-      <div className="fixed inset-0 mt-8 -z-10 overflow-hidden">
+      <div ref={bgRef} className="fixed inset-0 mt-8 -z-10 overflow-hidden">
         {images.map((image, index) => (
           <Image
             key={image}
@@ -182,7 +182,7 @@ export default function Home() {
           />
         ))}
 
-        <div className="absolute inset-0 bg-[linear-gradient(290deg,#0000000A_0%,#000000_100%)] opacity-90" />
+        <div className="absolute inset-0 bg-[linear-gradient(290deg,#0000000A_0%,#000000_100%)] opacity-50" />
       </div>
 
       <div ref={navRef} className="absolute top-0 left-0 right-0 z-10 ">
@@ -255,7 +255,7 @@ export default function Home() {
               ))}
 
               <Link
-                href="tel:+918109770778"
+                href="tel:+918107047722"
                 className="
                   inline-flex
                   items-center
@@ -319,7 +319,7 @@ export default function Home() {
             Dr. Itee Sinha & Dr. Sandeep Shrivastava
             </span>
 
-            <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-[9px] font-medium uppercase tracking-[0.15em] text-white/75 backdrop-blur-sm">
+            <span className="rounded-full border border-white/20 bg-white/10 px-2 py-0.5 text-[9px] font-medium uppercase tracking-[0.15em] text-white backdrop-blur-sm">
               MDS 
             </span>
           </div>
